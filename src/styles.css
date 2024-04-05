@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 105px;
+  padding: 100;
+  background: rgb(24, 24, 24);
+  background: linear-gradient(
+    90deg,
+    rgba(24, 24, 24, 1) 0%,
+    rgba(13, 0, 229, 1) 97%,
+    rgba(254, 255, 255, 1) 100%,
+    rgba(24, 24, 24, 1) 100%
+  );
+}
+div {
+  align-content: center;
+  justify-content: center;
+}
+.square {
+  background: #fff;
+  border: 3px solid #999;
+  float: left;
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 95px;
+  height: 95px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 95px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 80px;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 10px;
+  margin-top: 55px;
+}
